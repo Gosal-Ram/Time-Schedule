@@ -1,0 +1,21 @@
+
+    function addEventFunction(start, duration, title) {
+        const eventDiv = document.createElement('div');
+        eventDiv.className = 'event';
+        eventDiv.innerText = title;
+
+        
+        const topPosition = (start / 60) * 50; 
+        const eventHeight = (duration / 60) * 50; 
+    
+        eventDiv.style.top = `${topPosition}px`;
+        eventDiv.style.height = `${eventHeight}px`;
+
+        
+        document.getElementById('calender').appendChild(eventDiv);
+    }
+
+   
+    eventsData.forEach(event => {
+        addEventFunction(event.start, event.duration, event.title);
+    });

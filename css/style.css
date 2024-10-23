@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+}
+.sub-container{
+    display: flex;
+}
+.time-txt{
+    margin-left: 8px;
+  
+}
+.time-top-txt{
+    font-weight: 400;
+}
+header>div{
+    align-items: baseline;
+}
+.container{
+    padding : 25px 10%;
+}
+#calender{
+    margin-top: 14px;
+    position: relative;
+    overflow: hidden;
+}
+.duration{
+    height: 59px;
+}
+
+.eventCont2,.eventCont7,.eventCont9{
+    margin-left : 30%;
+    z-index: 2;
+}
+
+.time-chart{
+    position: absolute;
+    top: 0;
+    left: 60px;
+    width: 100%;
+}
