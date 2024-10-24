@@ -52,6 +52,7 @@ for(let j = 0 ; j<data.length ; j++){
     eventCont.style.borderLeft = '2px solid #7AA9D2';
     eventCont.style.background = '#E9EAEA';
     eventCont.style.width = '100%';
+    eventCont.classList.add(eventContChild);
 
     eventCont.style.position = 'absolute';
     timeChart.appendChild(eventCont);

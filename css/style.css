@@ -24,11 +24,12 @@ header>div{
 }
 .duration{
     height: 59px;
+    font-size: 14px;
+    border-top: 1px solid #ddd;
 }
 
-.eventCont2,.eventCont7,.eventCont9{
-    margin-left : 30%;
-    z-index: 2;
+.event-cont{
+   font-size: 10px;
 }
 
 .time-chart{
@@ -37,3 +38,4 @@ header>div{
     left: 60px;
     width: 100%;
 }
+

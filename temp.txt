@@ -1,0 +1,10 @@
+ eventCont.style.marginLeft = '50%'
+    eventCont.style.width='50%'
+    eventCont.innerText = data[i].title;
+   eventCont.style.top = data[i].start + 'px';
+   eventCont.style.height = data[i].duration + 'px';
+   eventCont.style.fontSize = '10px';
+   eventCont.style.borderLeft = '2px solid #7AA9D2';
+   eventCont.style.background = '#E9EAEA';
+   eventCont.style.position = 'absolute';
+   timeChart.appendChild(eventCont);
